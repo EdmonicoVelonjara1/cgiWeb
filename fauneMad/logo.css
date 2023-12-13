@@ -1,0 +1,48 @@
+/* Styles for the container */
+.container {
+  width: 901px;
+  background-color: chocolate;
+}
+
+/* Styles for the header */
+header {
+  height: 200px;
+}
+
+/* Styles for the header inner content */
+.header-inner {
+  background-color: green;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for the header image */
+.header-image {
+  width: 50px;
+  height: auto;
+}
+
+/* Center the h2 text */
+h2 {
+  text-align: center;
+  background-color: beige;
+}
+
+/* Styles for the navigation menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}

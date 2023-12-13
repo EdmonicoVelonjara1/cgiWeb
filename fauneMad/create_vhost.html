@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer Virtualhost</title>
+</head>
+
+<body> 
+    <h2><center>Héberger votre site web</center></h2>
+    <fieldset>
+        <form action="http://gasyzoo.mg/cgi-bin/vhost.cgi" method="get">
+            <fieldset>
+                <legend>Informations du serveur</legend>
+                Server Name: <input type="text" name="server_name" placeholder="www.exemple.com"><br>
+                Server Admin: <input type="text" name="server_admin" placeholder="webmaster@localhost"><br>
+                Document Root: <input type="text" name="doc_root" placeholder="/var/www/html/"><br>
+                Error log: <input type="text" name="error" placeholder="error.log"><br>
+                Access log: <input type="text" name="access" placeholder="access.log"><br>
+            </fieldset><br>
+            <fieldset>
+                SciptAlias: <input type="text" name="alias" placeholder="/cgi-bin/ /var/www/html/"><br>
+                Options: <input type="text" name="options" placeholder="+ExecCGI"><br>
+                <legend>Informations du Script utiilisé</legend>
+                AddHandler: <input type="text" name="handler" placeholder="cgi-script .cgi"><br>    
+            </fieldset>
+            
+            <input type="submit" name="submit" value="submit">
+
+        </form>
+    </fieldset>
+</body>
+</html>

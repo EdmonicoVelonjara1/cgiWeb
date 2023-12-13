@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+	<title>Page d'acceuil'</title>
+	<style>
+	.p{
+		color: white;
+		margin: 0px auto -5px auto;
+	}
+	.div {
+		height: max-content;
+		width: max-content;
+		margin-top: 40px;
+		background: chocolate;
+		border-radius: 5px;
+		padding: 50px 20px 20px 20px
+	}
+	fieldset{
+		background: white;
+		margin: 50px 0 20px 0;
+		height: 50px;
+		width: min-content;
+		padding: 0;
+		overflow: hidden;
+		border-radius: 6px;
+		border:  solid chocolate;
+	}
+	.input{
+		position: absolute;
+		display: block;
+		margin: 2px 3px 2px 3px;
+		padding-top: 0.01px;
+		height: min-content;
+		border-radius: 20px;
+		border: none;
+		/*transform: translateY(-20px);*/
+	}
+
+/***************************************************************************/
+	#i > input{
+		border-radius: 15px;
+		border: none;
+		padding: 2px 10px 5px 10px;
+		margin-bottom: 20px;
+		background-color: rgb(25, 0, 255);
+		color: white;
+		font-size: 105%;
+	}
+
+	#i:hover > input{
+		transition: ease 0.6s;
+		background-color: rgb(157, 255, 0);
+		border-radius: 20px;
+		padding: 5px 15px 5px 15px;
+		font-size: 120%;
+		
+	}
+
+/************************************************/
+
+input:focus::placeholder{color: transparent;}
+input:hover::placeholder{color: transparent;}
+.input:focus {
+	border: none;
+	color: black;
+}
+input:hover{background: yellowgreen;color: white;}
+
+span{
+	padding: 2px;
+	text-decoration: none;
+	color:white;
+}
+section{
+		color : white;
+		width:max-content;
+		border-radius: 20px;
+		padding: 5px 15px 5px 15px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+	background-color: rgb(25, 0, 255);
+	border-radius: 20px;
+}
+a:hover{
+	transition: ease 0.6s;
+	background-color: rgb(157, 255, 0);
+	border-radius: 20px;
+	padding: 5px 15px 5px 15px;
+	font-size: large;
+}
+		</style>
+</head>
+<body>
+	<center>
+	  	<div style="height:max-content;padding:50px">
+			<section align="center" style="background:blue;">
+				<p>Bienvenue dans Gasyzoo</p>
+			</section>							
+          	<div class="div">
+				<form action="http://gasyzoo.mg/cgi-bin/login10.cgi/" method ="get">
+					<span><p class="p">Identifiant</p>
+					<input class="input" type="text" name="identifiant" placeholder="identifiant">
+					</span>
+					<span><p class="p">Mot de passe</p>
+						<input  class="input" type="password" name="motdepasse" placeholder="mot de passe">
+					</span>
+					<span id="i">		
+						<input type="submit" name="connection" value="connection" title="connectez vous sur Gasyzoo">
+					</span>				
+				</form>
+          	</div>
+		</div>
+		<div>
+			<p style="color: black;">Don't have an account.
+			<a href="http://gasyzoo.mg/sign_up.html" >REGISTER</a></p>
+		</div>
+	</center>
+</body>
+</html>

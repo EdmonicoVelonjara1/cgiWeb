@@ -1,0 +1,94 @@
+<!--!DOCTYPE html>
+
+<html>
+<head>
+  <style>
+  
+  h1,h2,h4,h6{margin-top=30px}
+  </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Form1</title>
+</head>
+<body style="background-color:grey;">
+  <table border-style="double"cellspacing="0.5" cellpadding="0.05">
+    <tr>
+      <th allign="left" >
+  <h1 style="background-color:black;color:white;""background-position:cover"><i>Bienvenue dans MIT</i></h1><p>
+    <hr>
+     <h4 style="background-color:black;color: beige;">Inscrivez vous d&egrave;s maintenant:</h4>
+       <form action="test.php" method="post">
+          <p><i>
+           Nom: <input type="text" name="n1" placeholder="Nom"/><p>
+           Pr&eacute;nom(s): <input type="text" name="n2" placeholder="Pr&eacute;nom"/><p>
+           Date de naissance: <input type="text" name="n3" placeholder="JJ/ MM/ AA"/><p>
+           Ann&eacute;e du BAC: 
+             2023 <input type="radio" name="ch"/>
+             2022<input type="radio" name="ch"/><p>
+           Num&eacute;ro: <input type="text" name="n4"placeholder=""/><p>
+           Centre: <input type="text" name="centre"/><p>
+           S&eacute;rie du BAC: C<input type="radio" name="n5"/> S<input type="radio" name="n5"/><p>
+           Mention du BAC: <select name="m">
+             <option>Tr&egrave;s Bien</option>
+             <option>Bien</option>
+       </i></p></th></tr>
+     <tr>
+       <td align="right"style="background-color:black;">
+    <h2><input type="submit" name="n6" value="Inscrire"/></h2>
+       </td>
+     </tr>
+ </form>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1, h2, h4, h6 {
+      margin-top: 30px;
+    }
+
+    /* Ajoutez une marge supérieure à la ligne contenant le bouton */
+    .button-row {
+      margin-top: 30px;
+    }
+  </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Form1</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table class="element-arrondi">
+    <tr>
+      <th align="left">
+        <h1 style="background-color: black; color: white;"><i>Bienvenue dans MIT</i></h1>
+        <hr>
+        <h4 style="background-color: black; color: beige;">Inscrivez vous dès maintenant:</h4>
+        <form action="test.php" method="post">
+          <p><i>
+            Nom: <input type="text" name="n1" placeholder="Nom"><p>
+            Prénom(s): <input type="text" name="n2" placeholder="Prénom"><p>
+            Date de naissance: <input type="text" name="n3" placeholder="JJ/MM/AA"><p>
+            Année du BAC:
+              2023 <input type="radio" name="ch">
+              2022 <input type="radio" name="ch"><p>
+            Numéro: <input type="text" name="n4" placeholder=""><p>
+            Centre: <input type="text" name="centre"><p>
+            Série du BAC: C <input type="radio" name="n5"> S <input type="radio" name="n5"><p>
+            Mention du BAC: <select name="m">
+              <option>Très Bien</option>
+              <option>Bien</option>
+            </select>
+          </i></p>
+        </th>
+      </tr>
+      <tr class="button-row">
+        <td align="right" style="background-color: black;">
+          <!-- Supprimez les balises h2 autour du bouton Inscire -->
+          <input type="submit" name="n6" value="Inscrire">
+        </td>
+      </tr>
+     </table>
+    </form>
+  </body>
+</html>
+

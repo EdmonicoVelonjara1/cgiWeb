@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="styles/style.css"/>
+		<title>Page d'acceuil'</title>
+</head>
+<body>
+	<center>
+	  	<fieldset style="height:max-content;padding:50px">
+			<section align="center" style="background:blue;">
+				<p>Bienvenue dans Gasyzoo</p>
+			</section>							
+          	<div>
+				<form>
+					<fieldset>
+						<legend>
+							identifiant
+						</legend>
+						<input class="input" type="text" name="identifiant" placeholder="identifiant">
+					</fieldset>
+					<fieldset>
+						<legend>
+							Mot de passe
+						</legend>
+						<input  class="input" type="password" name="passwd" placeholder="mot de passe">
+					</fieldset>
+					<fieldset>
+						<legend>
+							Confirmer mot de passe
+						</legend>
+						<input class= "input" type="password" name ="confpasswd" placeholder="confirmer mot de passe">
+					</fieldset>
+					<span class="a">
+						<input type="submit" name="inscription" value="inscription" title="inscrivez-vous pour avoir plus d'info sur Gasyzoo ">
+					</span>
+					<span class="a" >		
+						<input type="submit" value="connection">
+					</span>				
+				</form>
+          	</div>
+	  	</fieldset>
+	</center>
+</body>
+</html>

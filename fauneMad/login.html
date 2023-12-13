@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://gasyzoo.mg/style1.css">
+    <style>
+        div {
+		height: max-content;
+		width: max-content;
+		margin-top: 50px;
+		background: chocolate;
+		border-radius: 5px;
+		padding: 50px 10px 20px 20px
+}
+fieldset{
+		background: white;
+		margin: 0 0 20px 0;
+		height: 50px;
+		width: min-content;
+		padding: 0;
+		overflow: hidden;
+		border-radius: 6px;
+		border:  solid chocolate;
+}
+.input{
+	margin: 0 0 20px 0;
+	padding: 15px;
+		border: none;
+		height: 10px;
+		z-index: -1;
+}
+
+.input:focus::placeholder{color: transparent;}
+.input:focus {
+		background: white;
+		border: none;
+		color: black;
+}
+
+span>input:defined{
+		border:none;
+		background: blue;
+		color:white;}
+fieldset:hover,input:hover{background: yellowgreen}
+legend{
+		border-radius: 6px;
+		border:  solid chocolate;
+		padding-left: 5px;
+		margin-left: 5px;
+		margin-bottom: -15;
+		font-size: 70%;
+		background: white;
+}
+.a{
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		margin: 10px;
+		padding:  5px;
+		 background: blue;
+ 		margin-bottom:  20px;
+		margin-top: 20px;
+		border-radius:  10px;
+		z-index: 2
+}
+span{
+		padding: 2px;
+		text-decoration: none;
+}
+section{
+		padding:0.2% 2% 0.2% 2%;
+		color : white;
+		width:max-content;
+		border-radius: 8px;
+}
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <center><legend>Login</legend></center>
+    <form action="http://gasyzoo.mg/cgi-bin/login.cgi" method="get">
+        <p>Identifiant: &nbsp;<input type="text" name="nom" placeholder="identifiant" required></p>
+        <p>Mot de passe: &nbsp;<input type="password" name="password" placeholder="mot de passe" required></p>
+        <p><input type="submit" name="inscrire" value="Se connecter"></p>
+    </form>
+</fieldset>
+</body>
+</html>

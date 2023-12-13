@@ -1,0 +1,30 @@
+.contenu{
+  border: 2px dashed;
+ height: 800px;
+  width:600px;
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 50px 1fr;
+  grid-template-areas: "tete tete tete"
+                       "sect ... lat"
+                       "pied pied pied ";
+}
+.item{
+  border: 1px solid blue;
+  background-color: blue;
+  color:white;
+  font-weight: bolder;
+  padding: 10px;
+}
+.iA{background-color: red;}
+.iB{background-color: yellow;}
+.iC{background-color: green;}
+.iD{background-color: red;}
+.iE{background-color: yellow;}
+.iF{background-color: green;}
+.iG{background-color: red;}
+.iH{background-color: yellow;}
+header{grid-area: tete;}
+section{grid-area: sect;}
+aside{grid-area: lat;}
+footer{grid-area: pied;}

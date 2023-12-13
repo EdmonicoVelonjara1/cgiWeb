@@ -1,0 +1,69 @@
+
+
+a{ color:white;}
+.b{
+  background-image:url("plage.jpg");
+  background-repeat:no-repeat;
+  width:500px;
+  height:500px;
+}
+.c{
+  border-radius:30px;
+  background-color:green;
+  padding-top:500px
+  margin-bottom:500px;
+}
+.aye{
+  background-image:url("aye.jpg");
+  background-repeat:no-repeat;
+  color:white;
+  width:500px;
+  height:500px;
+}
+.fosa{
+  background-image:url("fossa.jpg");
+  background-repeat:no-repeat;
+  color:white;
+  width:500px;
+  height:500px;
+}
+.antsora{
+  background-image:url("antsora.jpg");
+  color:white;
+  width:500px;
+  height:500px;
+}
+.indri{
+  background-image:url("indri.jpg");
+  color:white;
+  width:500px;
+  height:500px;
+}
+.boko{
+  background-image:url("bokombolo.jpg");
+  color:white;
+  width:500px;
+  height:500px;
+}
+.sifaka{
+  background-image:url("sifaka.jpg");
+  color:white;
+  width:500px;
+  height:500px;
+}
+.varimena{
+  background-image:url("varimena.jpg");
+  color:white;
+  width:500px;
+  height:500px;
+}
+.car{
+  background-color:green;color:white;
+  padding:10px;
+}       
+.vorondolo{
+   background-image:url("vorondolo.jpg");
+   color:white;
+   width:500px;
+   height:500px;
+}

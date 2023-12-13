@@ -1,0 +1,82 @@
+dt{
+  display: inline-block;
+}
+summary{
+  math-style:  compact;
+}
+
+u{
+  color: blue;
+}
+.margin-sommaire{
+  margin-right: 10px;
+}
+.text-bottom-header{
+  background-color: green;
+  padding: 30px;
+  margin: 10px 0px 10px;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligne le contenu en bas */
+    align-items: center; /* Centre le contenu horizontalement */
+    width: 90%px; /* Ajustez la largeur selon vos besoins */
+    height: 500pt; /* Ajustez la hauteur selon vos besoins */
+    background-image: url('ranomafana.jpeg');
+    background-size: 100% 100%; /* Ajustez la taille de l'image de fond selon vos besoins */
+}
+
+.cont{
+    grid-area: objet;
+    background-color: rgba(89, 95, 180, 0.555);
+    padding: 30px;
+    overflow: hidden;
+}
+a{
+  color:blue;
+}
+a:hover{
+	color:brown;
+}
+.texte {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le texte */
+    color: rgb(199, 182, 182); /* Couleur du texte */
+    padding: 10px; /* Espace autour du texte */
+}
+.image-animaux{
+    margin: 5px; 
+    width:100%; 
+    height:auto;
+}
+.sep_link_body{
+	  display:grid;
+	  grid-template-columns:20% 1% auto;
+	  grid-template-rows:80%;
+	  margin-bottom: 20px;   
+    grid-template-areas: "lien . objet";
+}
+.fond-lien{
+    grid-area: lien; 
+	  background-color: rgba(185, 178, 178, 0.534);
+	  padding:10px;
+} 
+  .menu{
+    padding-top: 50px;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	padding:10px;
+	background-color: green;
+}
